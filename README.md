@@ -65,13 +65,13 @@ Content-type: **application/x-www-form-urlencoded**
     
 **Response body**:
 - balance: <BALANCE_OF_USER>
-- identifer: '<USER_IDENTITY>'
+- identifier: '<USER_IDENTITY>'
 
 ## 5. Bet request
 **Request body**:
 - type: 'BET'
 - id: '<ID_OF_BET_REQUEST>'
-- identifer: '<USER_IDENTITY>'
+- identifier: '<USER_IDENTITY>'
 - amount: <BET_AMOUNT>
 
 
@@ -85,11 +85,11 @@ Content-type: **application/x-www-form-urlencoded**
 **Request body**:
 - type: 'WIN'
 - id: '<ID_OF_BET_REQUEST>'
-- identifer: '<USER_IDENTITY>'
+- identifier: '<USER_IDENTITY>'
 - amount: <BET_AMOUNT>
 
 **Response header**:
 - hmac
 **Response body**:
 - balance: <BALANCE_OF_USER_AFTER_WIN>
-- identifer: '<USER_IDENTITY>'
+- identifier: '<USER_IDENTITY>'
