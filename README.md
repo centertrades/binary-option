@@ -43,7 +43,7 @@ Content-type: **application/x-www-form-urlencoded**
 
 ## 3. Access BO Web
   After token is created. You can access the BO Web interface at url:
-  <WEB_URL>/auth?token=<TOKEN>&merchanId=<MERCHANT_ID>&identifier=<USER_IDENTITY>
+  <WEB_URL>/auth?token=<TOKEN>&merchantId=<MERCHANT_ID>&identifier=<USER_IDENTITY>
  When token is expired, you must re-generated a new one.
     
 The following request is callback request which means bo center will send request to merchant site for balance, bet, win:
